@@ -8,6 +8,7 @@ def main():
 
     # Check dependencies
     try:
+        from app.modules.inventory import models as inventory_models
         from app.db.session import init_db
         init_db()
         logger.info("Database schema initialized successfully.")
