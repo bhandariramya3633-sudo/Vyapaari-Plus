@@ -30,11 +30,11 @@ def upgrade() -> None:
     sa.Column('is_active', sa.Boolean(), nullable=False),
     sa.Column('created_at', sa.DateTime(), nullable=False),
     sa.Column('updated_at', sa.DateTime(), nullable=False),
-    sa.ForeignKeyConstraint(['branch_id'], ['branches.id'], ),
+    sa.ForeignKeyConstraint(['branch_id'], ['branches.id'], ondelete='RESTRICT'),
     sa.PrimaryKeyConstraint('id'),
     sa.UniqueConstraint('location_code')
     )
-    op.create_index(op.f('ix_store_locations_branch_id'), 'store_locations', ['branch_id'], unique=True)
+    op.create_index(op.f('ix_store_locations_branch_id'), 'store_locations', ['branch_id'], unique=False)
     # ### end Alembic commands ###
 
 
