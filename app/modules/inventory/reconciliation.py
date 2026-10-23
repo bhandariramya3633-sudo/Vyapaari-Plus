@@ -215,7 +215,7 @@ class MultiBranchReconciliationEngine:
             f"Missing units: {total_missing}; "
             f"Total variance: {variance}."
         )
-        
+
 
         clean_remarks = remarks.strip() if remarks else ""
         combined_remarks = (
