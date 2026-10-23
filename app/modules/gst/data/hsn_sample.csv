@@ -1,0 +1,18 @@
+# SAMPLE DATA - illustrative codes and rates for development and tests only.
+# Not official. Replace with the CBIC / GST portal HSN-SAC master before real use.
+code,description,kind,gst_rate,cess_rate
+0401,"Milk and cream, not concentrated or sweetened",HSN,0,0
+1006,Rice,HSN,5,0
+1701,Cane or beet sugar and chemically pure sucrose,HSN,5,0
+2202,Waters with added sugar or flavour (aerated beverages),HSN,40,0
+8471,Automatic data processing machines (computers),HSN,18,0
+8517,Telephone sets including smartphones,HSN,18,0
+8528,Monitors and projectors and television receivers,HSN,18,0
+8708,Parts and accessories of motor vehicles,HSN,18,0
+9403,Other furniture and parts thereof,HSN,18,0
+9971,Financial and related services,SAC,18,0
+9973,Leasing or rental services without operator,SAC,18,0
+9983,Other professional technical and business services,SAC,18,0
+998313,IT consulting and support services,SAC,18,0
+998314,IT design and development services,SAC,18,0
+9987,Maintenance repair and installation services,SAC,18,0
